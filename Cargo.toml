@@ -1,0 +1,11 @@
+[package]
+name = "v8-isolate"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.38.1", features = ["full"] }
+tokio-macros = "2.3.0"
+v8 = "0.98.1"
