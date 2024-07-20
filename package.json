@@ -1,0 +1,21 @@
+{
+  "name": "v8-isolate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc && node --no-node-snapshot index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.11",
+    "crypto": "^1.0.1",
+    "express": "^4.19.2",
+    "isolated-vm": "^5.0.1",
+    "perf_hooks": "^0.0.1"
+  }
+}
