@@ -5,7 +5,8 @@ fn main() {
     v8::V8::initialize_platform(platform);
     v8::V8::initialize();
 
-    let isolate = &mut v8::Isolate::new(Default::default());
+    let create_params = v8::Isolate::create_params().heap_limits(0, 1024);
+    let isolate = &mut v8::Isolate::new(create_params);
 
     let scope = &mut v8::HandleScope::new(isolate);
     let context = v8::Context::new(scope);
