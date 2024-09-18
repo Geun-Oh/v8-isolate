@@ -8,4 +8,6 @@ edition = "2021"
 [dependencies]
 tokio = { version = "1.38.1", features = ["full"] }
 tokio-macros = "2.3.0"
-v8 = "0.98.1"
+v8 = "0.106.0"
+warp = "0.3.7"
+lambda_http = "0.13.0"
